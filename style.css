@@ -19,6 +19,7 @@ nav ul{
 nav ul li{
     display: inline-block;
     margin-right: 40px;
+    font-size: 20px;
 }
 a{
     text-decoration: none;
@@ -120,5 +121,22 @@ p{
 .product1 .col-5 h3 {
     line-height: 50px;
 }
-
-
+.hakkinda{
+    padding-top: 40px;
+}
+.hakkinda h1{
+    padding-bottom: 20px;
+}
+.hakkinda p{
+    font-size: 30px;
+}
+.iletisim{
+    padding-top: 40px;
+}
+.iletisim h1{
+    padding-bottom: 20px;
+}
+.iletisim p{
+    font-size: 30px;
+    text-align: left;
+}
