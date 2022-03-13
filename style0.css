@@ -142,6 +142,11 @@ p{
     }
     .btn{
         margin-top: 1px;
+        top: 200px;
+    }
+    .col-2 h1{
+        font-size: 30px;
+        line-height: 40px;
     }
 }
 @media only screen and (max-width: 600px){
