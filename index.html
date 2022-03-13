@@ -7,13 +7,7 @@
     <title>Nektar Arıcılık</title>
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
     <link rel="stylesheet" href="style0.css">
-    <meta name="viewport" content="width=1280, initial-scale=1">
-    <script>
-        var siteWidth = 1280;
-        var scale = screen.width /siteWidth;
-
-        document.querySelector('meta[name="viewport"]').setAttribute('content', 'width='+siteWidth+', initial-scale='+scale+'');
-    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         img {
            -drag: none;
@@ -41,22 +35,39 @@
                     <img src="images/logo.png" width="100px">
                 </div>
                 <nav>
-                    <ul>
+                    <ul id="MenuItems">
                         <li><a href="index.html">Anasayfa</a></li>
                         <li><a href="pages/urunler.html">Ürünler</a></li>
                         <li><a href="pages/hakkinda.html">Hakkında</a></li>
                         <li><a href="pages/iletisim.html">İletişim</a></li>
                     </ul>
                 </nav>
+                <img src="images/menu1.png" class="menu-icon1" onclick="menutoggle()">
             </div>
             <div class="row">
                 <div class="col-2">
-                    <h1 style="color:rgb(255, 238, 0);">Nektar Arıcılık'a Hoşgeldiniz!</h1>
+                    <h1 style="color:rgb(255, 255, 255);">Nektar Arıcılık'a Hoşgeldiniz!</h1>
                     <a href="pages/bilgi.html" class="btn">Arı Ürünleri Hakkında Detaylı Bilgi İçin Tıklayınız</a>
                 </div>
             </div>
         </div>
     </div>
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px")
+            {
+                MenuItems.style.maxHeight = "200px"
+            }
+            else
+            {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
 </body>
 </html>
 
