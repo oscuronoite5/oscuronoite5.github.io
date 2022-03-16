@@ -102,13 +102,6 @@ a{
     left: 50%;
     transform: translateX(-50%);
 }
-#bc1 { 
-    background: url(images/indir.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
 .product1 .col-5 h1 {
     line-height: 50px;
 }
@@ -138,14 +131,14 @@ a{
     text-align: left;
 }
 #bc2 { 
-    background: url(images/1585723.jpg) no-repeat center center fixed; 
+    background: url(images/saripetek.avif) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 #bc3 { 
-    background: url(images/honeycomb_pattern.jpg) no-repeat center center fixed; 
+    background: url(images/bilgi.avif) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
