@@ -144,3 +144,20 @@ a{
     -o-background-size: cover;
     background-size: cover;
 }
+@media only screen and (max-width: 800px){
+    nav ul li{
+        font-size: 25px;
+        line-height: 50px;
+        margin-left: 5px;
+        margin-right: 15px;
+        font-weight: bold;
+    }
+    .logo img{
+        width: 100px;
+    }
+    #bur{
+        font-size: 30px;
+    }
+    .col-3{
+        font-size: 18px;
+    }
